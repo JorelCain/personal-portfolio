@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="resume.html">Resume/CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Contact Me</h1>
+    <p>Please fill out the form below to get in touch with me:</p>
+
+    <form action="#" method="post">        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+       
+        <label for="contact-date">Choose a date to contact me back:</label>
+        <input type="date" id="contact-date" name="contact-date">
+        <br><br>
+        
+        <p>Preferred Contact Method:</p>
+        <input type="radio" id="contact-email" name="contact-method" value="email">
+        <label for="contact-email">Email</label>
+        <br>
+        <input type="radio" id="contact-phone" name="contact-method" value="phone">
+        <label for="contact-phone">Phone</label>
+        <br><br>
+       
+        <p>Reason for contact:</p>
+        <input type="checkbox" id="professional-inquiry" name="reason" value="inquiry">
+        <label for="professional-inquiry">Professional Inquiry</label>
+        <br>
+        <input type="checkbox" id="project-collab" name="reason" value="collab">
+        <label for="project-collab">Project Collaboration</label>
+        <br><br>
+       
+        <label for="hear-about">How did you hear about me?</label>
+        <select id="hear-about" name="hear-about">
+            <option value="google">Google</option>
+            <option value="social-media">Social Media</option>
+            <option value="friend">Friend</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+        
+        <label for="comments">Any additional comments?</label>
+        <textarea id="comments" name="comments" placeholder="Type your message here..."></textarea>
+        <br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Find me on social media:</h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/adamjcain1" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/JorelCain" target="_blank">GitHub</a></li>
+    </ul>
+
+</body>
+</html>
